@@ -41,7 +41,18 @@ buildNumber.properties
 *.ipr
 .vscode/
 .eclipse/
+.settings/
+.project
+.classpath
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Test reports
+*.tmp
+*.bak
+
+# Environment
+.env
+.env.local
